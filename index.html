@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/about-me.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>About me</title>
+    <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&family=Noto+Serif+TC:wght@200..900&display=swap" rel="stylesheet">
+    <title>about_me</title>
+    Google字型使用，有點醜
+    -->
+    <style>
+    /*
+    .noto-serif-tc-Google_Fonts {
+    font-family: "Noto Serif TC", serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    <uniquifier>: Use a unique and descriptive class name
+    <weight>: Use a value from 200 to 900
+    Google字型使用，有點醜
+    }
+    */
+    li,span{ 
+    display: inline-block;   
+    } 
+    .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 20
+    }
+    .container {
+    position: relative;
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 5px;
+    }
+
+    .bg-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    }
+
+    .textBox {
+    color: rgb(0, 0, 0);
+    padding: 6px;
+    text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="imgset bg-mask" src="Background.JPG" alt="">
+        <div class="textBox">柏亨的個人網站</div>
+    </div>
+    <p>關於我...</p>
+    <!-- <h2>■ 基本資料</h2>
+    <ul>
+        <li>平鎮高中</li>
+        <li>屏東科技大學科技農業</li>
+    </ul> -->
+    <h2>■ 能力</h2>
+    <ul>
+        <span class="material-symbols-outlined" >more_up</span>
+        <li>Fusion360製圖</li><br>
+        <span class="material-symbols-outlined" >more_up</span>
+        <li>FDM 3D列印機維修/使用</li><br>
+        <span class="material-symbols-outlined" >more_up</span>
+        <li>雷切機使用</li><br>
+        <span class="material-symbols-outlined" >more_up</span>
+        <li>Arduino基本操作</li><br>
+        <span class="material-symbols-outlined" >more_up</span>
+        <li>網頁設計</li><br>
+    </ul>
+    <h2>■ 社群媒體</h2>
+    <ol>
+        <span class="material-symbols-outlined">favorite</span>
+        <li><a href="https://www.instagram.com/06jiang/" target="_blank">instagram-本帳</a></li><br>
+        <span class="material-symbols-outlined">favorite</span>
+        <li><a href="https://www.instagram.com/fei._06/" target="_blank">instagram-生活</a></li><br>
+        <span class="material-symbols-outlined">send</span>
+        <li><a href="https://line.me/ti/p/WxNOnmHC3F" target="_blank">LINE</a></li><br>
+        <span class="material-symbols-outlined">mail</span>
+        <li>Email: 0615henry@gmail.com <a target="_blank"></a></li><br>
+    </ol>
+    <h2>■ 優質網站推薦</h2>
+    <ol>
+        <span class="material-symbols-outlined">slideshow</span>
+        <li><a href="https://www.youtube.com/channel/UCc4aY4tuZU5H0OPKwsR6YBg/" target="_blank">安平鎮工所</a></li><br>
+        <span class="material-symbols-outlined">school</span>
+        <li><a href="https://sites.google.com/site/whlee1990/" target="_blank">隔壁生科教室</a></li><br>
+        <span class="material-symbols-outlined">school</span>
+        <li><a href="https://nxit.darrin.idv.tw/" target="_blank">隔壁資訊教室</a></li><br>
+        <span class="material-symbols-outlined">terminal</span>
+        <li><a href="https://ardublockly.ymtech.education/ardublockly/" target="_blank">ardublockly</a></li><br>
+        <span class="material-symbols-outlined">slideshow</span>
+        <li>友情贊助:<a href="https://www.youtube.com/@ItzDENKO" target="_blank">蛋糕Ken的YouTube</a></li>
+    </ol>
+    <h2>■ 遊戲</h2>
+    <ul>
+        <span class="material-symbols-outlined">sports_esports</span>
+        <li>SKY·光遇</li><br>
+        <span class="material-symbols-outlined">sports_esports</span>
+        <li>原神</li><br>
+    </ul>
+    <footer>
+        <time datetime="2024-06-01">修改日期:2024-06-01</time>
+    </footer>
+</body>
+</html>
